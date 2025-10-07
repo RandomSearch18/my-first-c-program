@@ -18,6 +18,19 @@ Start GDB:
 gdb ./data_explorer
 ```
 
+Then use the debugger:
+```
+(gdb) break 7
+(gdb) run
+(gdb) print a_char
+$1 = 65 'A'
+(gdb) print an_unsigned
+$2 = 210 '\322'
+(gdb) print a_short
+$3 = 12345
+(gdb) quit
+```
+
 ### Inspect memory using VSCode
 
 1. Add a breakpoint to `data_explorer.c`
