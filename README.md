@@ -35,3 +35,5 @@ $3 = 12345
 
 1. Add a breakpoint to `data_explorer.c`
 2. Hit <kbd>F5</kbd>
+
+![Debugging the program with VSCode](debugging-vscode.png)
